@@ -210,3 +210,74 @@ main > a > img {
     font-size: 1.4rem;
     line-height: 1.4;
 }
+
+/* Reactive Styles
+-----------------------------------------------*/
+@media all and (max-width: 1400px) {
+    .main-article {
+        max-width: 57%;
+    }
+    .side-articles {
+        max-width: 30%;
+    }
+    .latest-section {
+        max-width: 87%
+    }
+}
+@media (max-width: 1125px) {
+    header {
+        display: none;
+    }
+    main {
+        margin: 0;
+    }
+}
+@media all and (max-width: 1000px) {
+    .main-article {
+        min-width: 545px;
+    }
+    .side-articles {
+        clear: both;
+        padding: 1rem;
+        padding-right: 4rem;
+        min-width: 530px;
+    }
+    .latest-section {
+        max-width: 500px;
+    }
+}
+@media all and (max-width: 560px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+    .main-article .main-article-description {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    p.article-author, a.article-author {
+        font-size: 1rem;
+    }
+    .latest-articles .latest-content-description p {
+        display: none;
+    }
+    .main-article {
+        max-width: 95%;
+        min-width: 300px;
+    }
+    .side-articles {
+        max-width: 95%;
+        min-width: 300px;
+    }
+    .latest-section {
+        max-width: 95%;
+        min-width: 300px;
+    }
+    .latest-articles section:first-of-type {
+        width: 60%;
+    }
+    .latest-articles img {
+        width: 40%;
+    }
+}
