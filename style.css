@@ -1,0 +1,212 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    width: 100%;
+}
+/* Layout 
+-----------------------------------------------*/
+header, main {
+    float: left;
+}
+header {
+    position: fixed;
+    top: 0; left: 0;
+    margin: 0 2.2rem;
+    width: 10%;
+}
+main {
+    margin-left: 17.5rem;
+}
+.main-section {
+    overflow: auto;
+}
+.latest-section {
+    padding-top: 2.5rem;
+    padding-left: 1em;
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(100, 100, 100);
+}
+.login-block {
+    padding-bottom: 0.5em;
+}
+.login-block > * {
+    display: block;
+}
+.main-article, .side-articles {
+    float: left;
+    padding: 0 1em
+}
+.techcrunch-logo {
+    padding: 0 1em;
+}
+.main-article {
+    max-width: 38%;
+    padding-right: 2em;
+}
+.side-articles {
+    max-width: 22.5%;
+    padding-left: 0;
+}
+
+/* Typography 
+-----------------------------------------------*/
+h1 {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0;
+    font-weight: 900;
+}
+h3 {
+    margin: 0;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 1.2;
+}
+h5 {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.6rem;
+    clear: both;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+.main-article p, .side-articles p {
+    font-family: 'Lato' , sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+.side-article {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Styles 
+-----------------------------------------------*/
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+nav a {
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    text-decoration: none;
+
+    padding: .2rem 0;
+    margin-bottom: 5px;
+}
+nav a:hover, .article-author:hover {
+    color: #00a562;
+}
+.login-block img {
+    max-width: 80%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.login-block a {
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.login-block a:nth-of-type(2) {
+    color: rgb(84, 0, 92);
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+
+    margin-top: -1rem;
+}
+ion-icon {
+    margin-bottom: -0.5rem;
+}
+
+/* Main Content
+-----------------------------------------------*/
+main > a > img {
+    max-width: 4rem;
+    height: auto;
+    margin-top: 1rem;
+}
+.main-article .main-article-description {
+    display: inline-block;
+    color: grey;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.6rem;
+    padding: 0.75rem 0 0 0;
+}
+.main-article p {
+    margin: 0 0 0.5rem 0;
+}
+.main-article a {
+    width: 100%;
+    height: 100%;
+}
+.main-article-img {
+    width: 95%;
+    height: auto;
+}
+
+/* Latest Articles Content
+-----------------------------------------------*/
+.latest-section {
+    max-width: 60.5%;
+    overflow: auto;
+    padding: 1.5rem 1rem;
+}
+.latest-articles article {
+    clear: both;
+    overflow: auto;
+    margin-bottom: 5rem;
+}
+.latest-articles article section {
+    display: block;
+    float: left;
+    width: 33.33%;
+
+    padding-right: 2rem;
+}
+.latest-articles article section:last-of-type {
+    padding-right: 0;
+}
+.latest-articles article img {
+    width: 100%;
+    height: auto;
+}
+.latest-articles article p {
+    color: black;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.0;
+    padding: 0;
+    margin: 0.4rem 0;
+}
+.latest-articles section:first-of-type > a p {
+    font-weight: bold;
+}
+.latest-articles section:first-of-type > p {
+    color: grey;
+}
+.latest-articles .latest-content-description p {
+    display: inline-block;
+    color: grey;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
